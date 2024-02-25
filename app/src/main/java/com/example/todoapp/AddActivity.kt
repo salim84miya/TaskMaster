@@ -22,12 +22,12 @@ class AddActivity : AppCompatActivity() {
             finish()
         }
 
-        binding.cancelBtn.setOnClickListener {
-            binding.task.setText("")
-            val intent = Intent(applicationContext,MainActivity::class.java)
-            startActivity(intent)
-            finish()
-        }
+//        binding.cancelBtn.setOnClickListener {
+//            binding.task.setText("")
+//            val intent = Intent(applicationContext,MainActivity::class.java)
+//            startActivity(intent)
+//            finish()
+//        }
 
 
     }

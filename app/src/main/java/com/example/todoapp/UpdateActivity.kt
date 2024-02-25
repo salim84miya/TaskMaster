@@ -35,11 +35,11 @@ class UpdateActivity : AppCompatActivity() {
 
         }
 
-        binding.cancelBtn.setOnClickListener {
-            val intent = Intent(applicationContext,MainActivity::class.java)
-            startActivity(intent)
-            finish()
-        }
+//        binding.cancelBtn.setOnClickListener {
+//            val intent = Intent(applicationContext,MainActivity::class.java)
+//            startActivity(intent)
+//            finish()
+//        }
     }
 
     fun updateData() {

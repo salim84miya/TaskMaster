@@ -11,10 +11,11 @@
         android:id="@+id/task_heading"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="sans-serif-thin"
-        android:text="Update Task"
-        android:textSize="20sp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="@string/update_task"
+        android:textSize="30sp"
         android:textStyle="bold"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -32,16 +33,16 @@
 <!--        app:layout_constraintTop_toTopOf="parent" />-->
 
 
-    <ImageButton
-        android:id="@+id/cancel_btn"
-        android:layout_width="38dp"
-        android:layout_height="37dp"
-        android:layout_marginTop="28dp"
-        android:layout_marginEnd="60dp"
-        android:scaleType="centerCrop"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/cancel" />
+<!--    <ImageView-->
+<!--        android:id="@+id/cancel_btn"-->
+<!--        android:layout_width="30dp"-->
+<!--        android:layout_height="20dp"-->
+<!--        android:layout_marginEnd="60dp"-->
+<!--        android:scaleType="centerCrop"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/task_heading"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/task_heading"-->
+<!--        app:srcCompat="@drawable/close" />-->
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/textField"
@@ -49,7 +50,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
-        android:hint="what are you thinking?"
+        android:hint="@string/what_are_you_thinking"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -69,13 +70,12 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:backgroundTint="@color/black"
-        android:text="Update"
-        android:layout_marginHorizontal="4dp"
         android:background="@drawable/custom_btn_shape"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:backgroundTint="@color/black"
+        android:text="@string/update"
+        app:layout_constraintEnd_toEndOf="@+id/textField"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/textField"
         app:layout_constraintTop_toBottomOf="@+id/textField" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
