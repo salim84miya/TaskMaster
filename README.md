@@ -22,6 +22,5 @@ SQLite Database
 
 ![WhatsApp Image 2024-02-25 at 12 04 25](https://github.com/salim84miya/TaskMaster/assets/114942352/4e6579ae-e30f-4032-9d95-d092afec0df1)
 
-![WhatsApp Image 2024-02-25 at 12 04 25 (1)](https://github.com/salim84miya/TaskMaster/assets/114942352/46b59276-0945-4e8d-9eaf-a5ff4a233088)
 
 
