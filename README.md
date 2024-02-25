@@ -13,5 +13,5 @@ User Interface: Designed an intuitive user interface for seamless task managemen
 
 **Technologies Used**:
 
-Kotlin
+Kotlin,
 SQLite Database
